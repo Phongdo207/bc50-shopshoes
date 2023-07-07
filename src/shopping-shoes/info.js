@@ -37,12 +37,11 @@ export default class Info extends Component {
                                     <tr>
                                         <td><img src={productDetail.image} width={450} alt="" /></td>
                                         <td>
-                                            <h2 className='text-center'style={{color: "red"}}>{productDetail.name}</h2>
+                                            <h2 className='text-center'>{productDetail.name}</h2>
                                             <h5 style={{color : "blue"}}>{productDetail.description}</h5>
                                             <h5 style={{color : "blue"}}>{productDetail.shortDescription}</h5>
-                                            <h5 style={{color : "black"}}>Price : {productDetail.price}$</h5>
                                             <h5 style={{color : "#8B7D6B"}}>Quanlity : {productDetail.quantity}</h5>
-
+                                            <h5 style={{color : "red"}}>Price : {productDetail.price}$</h5>
                                         </td>
                                     </tr>
                                 </tbody>
